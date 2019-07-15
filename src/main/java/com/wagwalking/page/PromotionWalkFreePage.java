@@ -47,9 +47,34 @@ public class PromotionWalkFreePage extends BasePage{
     @FindBy(css = "input[name=phone]")
     WebElement phoneField;
 
-    public void inputPhone(String phone) {
+
+
+    @FindBy(css = ".sc-bdVaJa.sc-iwsKbI.kOShw")
+    private WebElement requiredElementField;
+
+
+
+
+
+
+    public void inputPhone(String phone)
+    {
         phoneField.sendKeys(phone);
     }
+
+
+    public void clickEmailField() {
+        emailField.click();
+    }
+
+    public void clickPasswordField() {
+        passwordField.click();
+    }
+
+    public String getRequiredEmailNote() {
+        return requiredElementField.getText();
+    }
+
 
 
 
