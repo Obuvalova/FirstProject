@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dfc54003-5f91-4d23-80c4-6639ac7675a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wagwalking/page/PromotionWalkFreePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wagwalking/page/PromotionWalkFreePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wagwalking/VerifyRequiredFieldsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wagwalking/VerifyRequiredFieldsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,10 +67,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wagwalking/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="272">
               <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -80,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wagwalking/VerifyRequiredFieldsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+            <state relative-caret-position="969">
+              <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wagwalking/page/PromotionWalkFreePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="87" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="14" />
+            <state relative-caret-position="-442">
+              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#257#258#0" expanded="true" />
@@ -106,14 +108,26 @@
                 <element signature="e#799#800#0" expanded="true" />
                 <element signature="e#924#925#0" expanded="true" />
                 <element signature="e#972#973#0" expanded="true" />
-                <element signature="e#1087#1088#0" expanded="true" />
-                <element signature="e#1129#1130#0" expanded="true" />
+                <element signature="e#1388#1389#0" expanded="true" />
+                <element signature="e#1430#1431#0" expanded="true" />
                 <element signature="e#1171#1172#0" expanded="true" />
                 <element signature="e#1196#1197#0" expanded="true" />
                 <element signature="e#1245#1246#0" expanded="true" />
                 <element signature="e#1273#1274#0" expanded="true" />
+                <element signature="e#1452#1453#0" expanded="true" />
+                <element signature="e#1481#1482#0" expanded="true" />
+                <element signature="e#1535#1536#0" expanded="true" />
+                <element signature="e#1563#1564#0" expanded="true" />
+                <element signature="e#1604#1605#0" expanded="true" />
+                <element signature="e#1629#1630#0" expanded="true" />
                 <element signature="e#1421#1422#0" expanded="true" />
                 <element signature="e#1456#1457#0" expanded="true" />
+                <element signature="e#1884#1885#0" expanded="true" />
+                <element signature="e#1928#1929#0" expanded="true" />
+                <element signature="e#2073#2074#0" expanded="true" />
+                <element signature="e#2116#2117#0" expanded="true" />
+                <element signature="e#2271#2272#0" expanded="true" />
+                <element signature="e#2311#2312#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,10 +170,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wagwalking/User2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wagwalking/User3.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wagwalking/HomeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wagwalking/page/PromotionWalkFreePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wagwalking/VerifyRequiredFieldsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wagwalking/WalkFreeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wagwalking/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wagwalking/VerifyRequiredFieldsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wagwalking/page/PromotionWalkFreePage.java" />
       </list>
     </option>
   </component>
@@ -171,8 +185,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1144" />
-    <option name="y" value="28" />
+    <option name="x" value="725" />
+    <option name="y" value="18" />
     <option name="width" value="1191" />
     <option name="height" value="983" />
   </component>
@@ -207,6 +221,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFirstProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wagwalking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFirstProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wagwalking" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myFirstProject" type="b2602c69:ProjectViewProjectNode" />
@@ -355,21 +386,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTast - 2019.07.11 at 00h 18m 53s.xml">
-      <configuration name="FirstTast" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WalkFreeTest - 2019.07.11 at 23h 22m 29s.xml">
-      <configuration name="WalkFreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WalkFreeTest - 2019.07.11 at 23h 24m 32s.xml">
-      <configuration name="WalkFreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WalkFreeTest - 2019.07.11 at 23h 37m 25s.xml">
-      <configuration name="WalkFreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WalkFreeTest - 2019.07.12 at 00h 29m 41s.xml">
-      <configuration name="WalkFreeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SecondTest_testSecond - 2019.07.14 at 22h 00m 00s.xml">
       <configuration name="SecondTest.testSecond" configurationId="JUnit" />
     </history-entry>
@@ -385,10 +401,24 @@
     <history-entry file="VerifyRequiredFieldsTest_testVerifyRequiredFieldsTest - 2019.07.15 at 00h 37m 52s.xml">
       <configuration name="VerifyRequiredFieldsTest.testVerifyRequiredFieldsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VerifyRequiredFieldsTest_testVerifyRequiredFieldsTest - 2019.07.15 at 21h 11m 23s.xml">
+      <configuration name="VerifyRequiredFieldsTest.testVerifyRequiredFieldsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VerifyRequiredFieldsTest_testVerifyRequiredFieldsTest - 2019.07.15 at 21h 12m 43s.xml">
+      <configuration name="VerifyRequiredFieldsTest.testVerifyRequiredFieldsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VerifyRequiredFieldsTest_testVerifyRequiredFieldsTest - 2019.07.15 at 22h 06m 43s.xml">
+      <configuration name="VerifyRequiredFieldsTest.testVerifyRequiredFieldsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VerifyRequiredFieldsTest_testVerifyRequiredFieldsTest - 2019.07.15 at 22h 10m 50s.xml">
+      <configuration name="VerifyRequiredFieldsTest.testVerifyRequiredFieldsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VerifyRequiredFieldsTest_testVerifyRequiredFieldsTest - 2019.07.15 at 22h 12m 35s.xml">
+      <configuration name="VerifyRequiredFieldsTest.testVerifyRequiredFieldsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1144" y="28" width="1191" height="983" extended-state="0" />
-    <editor active="true" />
+    <frame x="683" y="36" width="1191" height="983" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2687887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -399,15 +429,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39586645" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26705882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.43294117" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.43294117" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.31796503" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.31744313" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -527,10 +557,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wagwalking/FirstTast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wagwalking/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wagwalking/VerifyRequiredFieldsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wagwalking/page/PromotionWalkFreePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="87" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="14" />
+        <state relative-caret-position="-442">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#257#258#0" expanded="true" />
@@ -543,44 +603,26 @@
             <element signature="e#799#800#0" expanded="true" />
             <element signature="e#924#925#0" expanded="true" />
             <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
             <element signature="e#1171#1172#0" expanded="true" />
             <element signature="e#1196#1197#0" expanded="true" />
             <element signature="e#1245#1246#0" expanded="true" />
             <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
             <element signature="e#1421#1422#0" expanded="true" />
             <element signature="e#1456#1457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wagwalking/FirstTast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wagwalking/VerifyRequiredFieldsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wagwalking/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1884#1885#0" expanded="true" />
+            <element signature="e#1928#1929#0" expanded="true" />
+            <element signature="e#2073#2074#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
           </folding>
         </state>
       </provider>

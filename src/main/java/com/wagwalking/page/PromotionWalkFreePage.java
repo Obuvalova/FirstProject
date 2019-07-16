@@ -13,7 +13,7 @@ public class PromotionWalkFreePage extends BasePage{
 
 
     @FindBy(css = "input[type=\"email\"]")
-    WebElement emailField;
+    private WebElement emailField;
 
     public void inputEmail(String email) {
         emailField.sendKeys(email);
@@ -21,7 +21,7 @@ public class PromotionWalkFreePage extends BasePage{
 
 
     @FindBy(css = "input[type=\"password\"]")
-    WebElement passwordField;
+    private WebElement passwordField;
 
     public void inputPassword(String password) {
         passwordField.sendKeys(password);
@@ -38,19 +38,29 @@ public class PromotionWalkFreePage extends BasePage{
 
 
     @FindBy(css = "input[name=lastName]" )
-    WebElement lastNameField;
+    private WebElement lastNameField;
 
     public void inputLastName(String lastName) {
         lastNameField.sendKeys(lastName);
     }
 
     @FindBy(css = "input[name=phone]")
-    WebElement phoneField;
+    private WebElement phoneField;
 
 
 
     @FindBy(css = ".sc-bdVaJa.sc-iwsKbI.kOShw")
-    private WebElement requiredElementField;
+    private WebElement requiredEmailField;
+
+    @FindBy(css ="sc-bdVaJa sc-iwsKbI kOShw")
+    private WebElement requiredFirstNameField;
+
+
+    @FindBy(css = ".sc-bdVaJa.sc-iwsKbI.kOShw")
+    private WebElement requiredLastNameField;
+
+    @FindBy(css = ".sc-bdVaJa.sc-iwsKbI.kOShw")
+    private WebElement requiredPhoneField;
 
 
 
@@ -71,8 +81,33 @@ public class PromotionWalkFreePage extends BasePage{
         passwordField.click();
     }
 
+    public void clickFirstNameField() {
+        firstNameField.click();
+    }
+
+    public void  clickLastNameField() {
+        lastNameField.click();
+    }
+    public void clickPhoneField() {
+        phoneField.click();
+    }
+
+
+
     public String getRequiredEmailNote() {
-        return requiredElementField.getText();
+        return requiredEmailField.getText();
+    }
+
+    public String getRequiredFirstNameNote() {
+        return requiredFirstNameField.getText();
+    }
+
+    public String getRequiredLastNameNote() {
+        return requiredLastNameField.getText();
+    }
+
+    public String getRequiredPhoneNote() {
+        return requiredPhoneField.getText();
     }
 
 
