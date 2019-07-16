@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
+
 public class PromotionWalkFreePage extends BasePage{
 
 
@@ -49,18 +51,17 @@ public class PromotionWalkFreePage extends BasePage{
 
 
 
-    @FindBy(css = ".sc-bdVaJa.sc-iwsKbI.kOShw")
-    private WebElement requiredEmailField;
 
-    @FindBy(css ="sc-bdVaJa sc-iwsKbI kOShw")
-    private WebElement requiredFirstNameField;
+
+
 
 
     @FindBy(css = ".sc-bdVaJa.sc-iwsKbI.kOShw")
-    private WebElement requiredLastNameField;
+    private List<WebElement> requiredFields;
 
-    @FindBy(css = ".sc-bdVaJa.sc-iwsKbI.kOShw")
-    private WebElement requiredPhoneField;
+    @FindBy(css = ".sc-gzVnrw.fzplxK")
+    private List<WebElement> requiredFields1;
+
 
 
 
@@ -94,21 +95,35 @@ public class PromotionWalkFreePage extends BasePage{
 
 
 
-    public String getRequiredEmailNote() {
-        return requiredEmailField.getText();
+    public String getEmailRequiredFields() {
+        return requiredFields.get(0).getText();
+    }
+    public String getFirstNameRequiredFields() {
+        return requiredFields.get(1).getText();
     }
 
-    public String getRequiredFirstNameNote() {
-        return requiredFirstNameField.getText();
+    public String getLastNameRequiredFields() {
+        return  requiredFields.get(2).getText();
     }
 
-    public String getRequiredLastNameNote() {
-        return requiredLastNameField.getText();
+    public String getPhoneRequiredFields() {
+        return requiredFields.get(3).getText();
     }
 
-    public String getRequiredPhoneNote() {
-        return requiredPhoneField.getText();
+
+    public String getCharacters() {
+        return requiredFields1.get(0).getText();
     }
+
+    public String getLetter() {
+        return requiredFields1.get(1).getText();
+    }
+    public String getNumber() {
+        return requiredFields1.get(2).getText();
+    }
+
+
+
 
 
 

@@ -29,33 +29,43 @@ public class VerifyRequiredFieldsTest extends BaseTest {
 
        promotionPage.clickPhoneField();
 
+       promotionPage.clickPasswordField();
 
 
-       String emailNote = promotionPage.getRequiredEmailNote();
 
-        System.out.println(emailNote);
+
+
+        String emailNote = promotionPage.getEmailRequiredFields();
 
         Assert.assertEquals("required",emailNote);
 
 
 
 
-        String firstNameNote = promotionPage.getRequiredFirstNameNote();
-
-        System.out.println(firstNameNote);
+        String firstNameNote = promotionPage.getFirstNameRequiredFields();
 
         Assert.assertEquals("required",firstNameNote);
 
 
 
-        String lastNameNote = promotionPage.getRequiredLastNameNote();
+        String lastNameNote = promotionPage.getLastNameRequiredFields();
 
         Assert.assertEquals("required",lastNameNote);
 
 
 
-        String phoneNote = promotionPage.getRequiredPhoneNote();
+        String phoneNote = promotionPage.getPhoneRequiredFields();
         Assert.assertEquals("required",phoneNote);
+
+
+        String character = promotionPage.getCharacters();
+        Assert.assertEquals("(8 Characters,",character);
+
+        String letter = promotionPage.getLetter();
+        Assert.assertEquals("1 Letter,",letter);
+
+        String number = promotionPage.getNumber();
+        Assert.assertEquals("1 Number)",number);
 
 
 
