@@ -18,6 +18,17 @@ public class HomePage extends BasePage{
       return  new PromotionWalkFreePage(driver);
     }
 
+   @FindBy(css = ".button-text")
+    private WebElement becomeWalkerButton;
+
+    public BecomeWalkerPage clickBecomeWalkerButton() {
+        becomeWalkerButton.click();
+        return new BecomeWalkerPage(driver);
+    }
+
+
+
+
 
 
 

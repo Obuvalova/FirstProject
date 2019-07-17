@@ -32,7 +32,7 @@ public class PromotionWalkFreePage extends BasePage{
 
 
     @FindBy(css = "input[name=firstName]")
-    WebElement firstNameField;
+    private WebElement firstNameField;
 
     public void inputFirstName(String firstName) {
         firstNameField.sendKeys(firstName);
@@ -121,6 +121,10 @@ public class PromotionWalkFreePage extends BasePage{
     public String getNumber() {
         return requiredFields1.get(2).getText();
     }
+
+
+
+
 
 
 
